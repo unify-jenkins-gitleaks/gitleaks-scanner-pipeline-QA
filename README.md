@@ -505,7 +505,7 @@ $ gitleaks dir ~/leaky-repo/ --report-path "report.json" --report-format templat
 </p>
 
 
-## Exit Codes
+## Exit Codes..
 
 You can always set the exit code when leaks are encountered with the --exit-code flag. Default exit codes below:
 
