@@ -43,6 +43,7 @@ pipeline {
             steps {
                 sh """
                     ${GITLEAKS_BIN}/gitleaks detect \
+                    --no-git \
                     --source . \
                     --report-format sarif \
                     --report-path ${SARIF_FILE} || true
